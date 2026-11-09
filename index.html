@@ -7,63 +7,71 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>月</h1>
-    <p class="favorite">のんびり生きてます。</p>
-    <img src="img/IMG_0315.jpg" height="300"><br>
+    <header>
+        <h1>月</h1>
+        <nav>
+            <a href="#form">感想を送る</a>
+        </nav>
+    </header>
+    <main>
+        <p class="favorite">のんびり生きてます。</p>
+        <img src="img/IMG_0315.jpg" height="300"><br>
 
-    <h2>趣味</h2>
-    <ul>
-        <li>TRPG</li>
-        <li>イラスト</li>
-        <li>読書</li>
-    </ul><br>
+        <h2>趣味</h2>
+        <ul>
+            <li>TRPG</li>
+            <li>イラスト</li>
+            <li>読書</li>
+        </ul><br>
     
-    <h2>好きなウサギTOP3</h2>
-    <ol>
-        <li>ホーランドロップ</li>
-        <li>ネザーランドドワーフ</li>
-        <li>アメリカンファジーロップ</li>
-    </ol><br>
+        <h2>好きなウサギTOP3</h2>
+        <ol>
+            <li>ホーランドロップ</li>
+            <li>ネザーランドドワーフ</li>
+            <li>アメリカンファジーロップ</li>
+        </ol><br>
 
-    <h2>おすすめの動画</h2>
-    <a href="https://youtu.be/iWx6NXdy2NQ?si=ElBgnlZVZiv9uIAu">Youtubeに飛びます</a>
-    <br>
+        <h2>おすすめの動画</h2>
+        <a href="https://youtu.be/iWx6NXdy2NQ?si=ElBgnlZVZiv9uIAu">Youtubeに飛びます</a>
+        <br>
 
-    <h2>好きな本ベスト3とその理由</h2>
-    <table>
-        <tr>
-            <th>1位</th>
-            <td>猫町</td>
-            <td>最初と最後の表現の違いが見ていて楽しい。</td>
-        </tr>
-        <tr>
-            <th>2位</th>
-            <td>地獄の道化師</td>
-            <td>犯人の行動に対して、初めて読んだ時の衝撃がずっと残っているから。</td>
-        </tr>
-        <tr>
-            <th>3位</th>
-            <td>外科室</td>
-            <td>シンプルに雰囲気が好みなため。</td>
-        </tr>
-    </table><br>
+        <h2>好きな本ベスト3とその理由</h2>
+        <table>
+            <tr>
+                <th>1位</th>
+                <td>猫町</td>
+                <td>最初と最後の表現の違いが見ていて楽しい。</td>
+            </tr>
+            <tr>
+                <th>2位</th>
+                <td>地獄の道化師</td>
+                <td>犯人の行動に対して、初めて読んだ時の衝撃がずっと残っているから。</td>
+            </tr>
+            <tr>
+                <th>3位</th>
+                <td>外科室</td>
+                <td>シンプルに雰囲気が好みなため。</td>
+            </tr>
+        </table><br>
 
-    <h2>このページの感想を送る</h2>
-    <form method="get">
-        <dl>
-            <dt><label for="visitor-name">お名前</label></dt>
-            <dd><input type="text" id="visitor-name" name="visitor-name"></dd>
-            <dt>いちばんよかったところ</dt>
-            <dd>
-                <label><input type="radio" name="best" value="photo">写真</label>
-                <label><input type="radio" name="best" value="list">趣味</label>
-                <label><input type="radio" name="best" value="rabbit">うさぎ</label>
-                <label><input type="radio" name="best" value="table">好きな本とその理由</label>
-            </dd>
-            <dt><label for="comment">感想</label></dt>
-            <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
-        </dl>
-        <button type="submit">送信する</button>
-    </form>
+        <h2 id="form">このページの感想を送る</h2>
+        <form method="get">
+            <dl>
+                <dt><label for="visitor-name">お名前</label></dt>
+                <dd><input type="text" id="visitor-name" name="visitor-name"></dd>
+                <dt>いちばんよかったところ</dt>
+                <dd>
+                    <label><input type="radio" name="best" value="photo">写真</label>
+                    <label><input type="radio" name="best" value="list">趣味</label>
+                    <label><input type="radio" name="best" value="rabbit">うさぎ</label>
+                    <label><input type="radio" name="best" value="table">好きな本とその理由</label>
+                </dd>
+                <dt><label for="comment">感想</label></dt>
+                <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
+            </dl>
+            <button type="submit">送信する</button>
+        </form>
+    </main>
+    <footer>© 2026 月</footer>
 </body>
 </html>
