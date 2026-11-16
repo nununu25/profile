@@ -15,6 +15,7 @@
             <a href="#movie">MOVIE</a>
             <a href="#book">BOOK</a>
             <a href="#form">FORM</a>
+            <a href="#ask">ASK</a>
         </nav>
     </header>
     <main>
@@ -37,7 +38,7 @@
 
         <h2 id="movie">おすすめの動画</h2>
         <a href="https://youtu.be/iWx6NXdy2NQ?si=ElBgnlZVZiv9uIAu">Youtubeに飛びます</a>
-        <br>
+        <br><br><br>
 
         <h2 id="book">好きな本ベスト3とその理由</h2>
         <table>
@@ -74,8 +75,15 @@
                 <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
             </dl>
             <button type="submit">送信する</button>
-        </form>
+        </form><br><br>
+
+        <h2 id="ask">質問コーナー</h2>
+        <p>名前を入れて、ボタンを押してください。</p>
+        <input type="text" id="guest-name">
+        <button onclick="greet()">あいさつする</button>
+        <p id="reply"></p><br>
     </main>
     <footer>© 2026 月</footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
